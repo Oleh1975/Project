@@ -1,0 +1,170 @@
+@charset "utf-8";
+html{box-sizing: border-box}
+*,*:before,*:after{
+	box-sizing: inherit;
+}
+*{margin: 0;
+padding: 0;
+}
+	#wrapper{
+		width: 1500px;
+		background-color:#000;
+		color:#FFFFFF;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	header{
+		background-image: url("images/header.png");
+		height: 200px;
+		width: 1500px;
+		z-index: 1;
+	}
+	nav{
+		background-color:#000000;
+		position: sticky;
+		top: 0px;
+	}
+
+p{
+	font-size: 25px;
+	
+	
+}
+
+	ul{
+		list-style-type:none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 100%;
+	}
+
+	li{
+		display: inline;
+		float:left;
+		border-right:1px solid #bbb;
+	}
+	
+	li a{
+		font-size: 20px;
+		color:#F9F5B5;
+		text-align: center;
+		padding:20px 16px;
+		text-decoration: none;
+		display: block;
+		background-color: #000000;
+	}
+	li a:hover{
+		background-color: #111;
+	}
+		a:link {
+	color: #C1FF72;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #C1FF72;
+}
+a:hover {
+	text-decoration: underline;
+	color: #C1FF72;
+}
+a:active {
+	text-decoration: none;
+	color: #C1FF72;
+}
+	.active{
+		background-color: #fb1712;
+		color:#ffffff;
+	}
+	
+	.slideshow-container{
+	max-width: 1500px;
+	position: relative;
+	margin: auto;
+	}
+	.mySlides{
+	display: none;
+	}
+	.text{
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+	}
+	.numbertext{
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+	}
+	.prev, .next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	}
+	.next{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+	}
+	.prev:hover, .next:hover{
+	background-color: rgba(0,0,0,0,.8);
+	}
+	.fade{
+	animation-name: fade;
+	animation-duration: 1.5s;
+	}
+	@keyframes fade{
+	from{opacity: .4}
+	to{opacity: 1}
+	}
+
+	footer{
+	background-image: url("images/2026oleh.png");
+	height: 200px;
+	width: 1500px;
+	}
+.layout{
+	margin-top: 10px;
+	padding-left: 40px;
+	
+	width:400px;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	display: block;
+}
+.layout-middle{
+	margin-top: 10px;
+	padding-left: 20px;
+
+	width:650px;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	display: block;
+}
+.container{
+	width: 1500px;
+	
+	display: block;
+	
+}
+.card{
+	width: 450px;
+	float: left;
+	margin-left: 30px;
+}

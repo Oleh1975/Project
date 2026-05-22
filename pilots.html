@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pilots</title>
+<script src="https://kit.fontawesome.com/87c4142ee6.js" crossorigin="anonymous"></script>
+	
+	
+<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	
+</head>
+
+<body>
+	<div id="wrapper">
+
+	<header>
+	</header>
+	
+	<nav>
+	<ul>
+		<li><a href="index.html" class="active"><i class="fa-solid fa-earth-europe fa-2xl"></i></a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+		<li><a href="pilots.html">PILOTS</a></li>
+		<li><a href="starships.html">STARSHIPS</a></li>
+		<li><a href="destination.html">DESTINATION</a></li>
+	</ul>
+	</nav>
+		
+<main>
+	
+	<img src="images/arnienator.png" alt="desc of image" width="500" class="layout">
+	
+	 <p><span style="color:#C1FF72"><strong>ARNIENATOR</strong></span> is our best pilot of all time. It can take You  not only anywhere in the Universe,  but also go with You to the past, breaking all  the laws of physics. At the same time, he always comes back again. And what  about You – we do not guarantee.</p>
+	
+<h1>********************************************************************************************** </h1>
+	
+	<img src="images/raccoon.png" alt="desc of image" width="500" class="layout">
+	
+     <p>It&rsquo;s a raccoon, but God forbid you call it a raccoon! Then  it becomes very aggressive and can drop You off on any nearby planet. Or just  throw You into outer space.</p>
+	
+<h1>********************************************************************************************** </h1>
+	
+	<img src="images/alien.png" alt="desc of image" width="500" class="layout">
+	
+	 <p>This is another of our cute pilots. We found her on some  distant planet (we don&rsquo;t remember which one). She has a very cool antenna on  her head, but we do not advise You to touch them, because You will be electrocuted,  with a power of 10,000 volts. She kills alien insects with them before eating  them.</p>
+	
+<h1>********************************************************************************************** </h1>
+	
+	<img src="images/tree.png" alt="desc of image" width="500" class="layout">
+	
+	 <p>It&rsquo;s just a tree. It grew up on one of our spaceships  thousands of years ago, and during this time it learned to make incomprehensible  sounds. Customers love it.</p>
+	
+<h1>********************************************************************************************** </h1>
+	
+	<img src="images/guy.png" alt="desc of image" width="500" class="layout">
+	
+	 <p>And this is a dude we don&rsquo;t know. We don&rsquo;t know where he  came from or how he got here. He flies all over the Galaxies, but does not  understand why and what he is looking for there. If you see him, then send him  greetings from us.</p>
+	
+<h1>********************************************************************************************** </h1>
+	
+</main>
+	
+<footer>
+	<i class="fas fa-sun"></i>
+	</footer>	
+	
+</div>
+
+	<script>
+	 let slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+  	showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+  	let i;
+  	let slides = document.getElementsByClassName("mySlides");
+  
+  	if (n > slides.length) {slideIndex = 1}
+  	if (n < 1) {slideIndex = slides.length}
+  	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+  
+			slides[slideIndex-1].style.display = "block";
+  
+		}
+	</script>
+</body>
+	
+</html>

@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Starships</title>
+<script src="https://kit.fontawesome.com/87c4142ee6.js" crossorigin="anonymous"></script>
+	
+	
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+</head><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+<body>
+	<div id="wrapper">
+
+	<header>
+	</header>
+	
+	<nav>
+	<ul>
+		<li><a href="index.html" class="active"><i class="fa-solid fa-earth-europe fa-2xl"></i></a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+		<li><a href="pilots.html">PILOTS</a></li>
+		<li><a href="starships.html">STARSHIPS</a></li>
+		<li><a href="destination.html">DESTINATION</a></li>
+	</ul>
+	</nav>
+		
+	  <h2><i class="fas fa-rocket"></i><span style="color:#C1FF72">OUR STARSHIPS ARE THE BEST THAT HAVE BEEN BUILT IN THE LAST  60 MILLION YEARS!!!!!! HERE ARE A FEW OF THEM.</span><i class="fas fa-rocket"></i></h2>
+		
+	<main>
+	<h1>********************************************************************************************** </h1>
+		
+		<img src="images/millennium.png" alt="desc of image" width="500" class="layout">
+		
+		 <p> This is the <span style="color:#C1FF72"><strong>MILLENNIUM FALCON</strong></span>.  It&rsquo;s roughly 10 million years old and has only had one overhaul and one update  to its operating system, but it&rsquo;s still the fastest in our Galaxy. Well, at  least that&rsquo;s what his pilot says.</p>
+	<h1>********************************************************************************************** </h1>
+		
+		<img src="images/enterprise.png" alt="desc of image" width="500" class="layout">
+		
+		 <p>If You want to celebrate Your birthday, wedding or other  celebrations, we offer You a very large and comfortable starship called the <span style="color:#C1FF72"><strong>USS  ENTERPRISE (NCC-1701)</strong></span>. It accommodates up to a thousand passengers and has  spacious cabins. You and Your guests will forever remember the days spent on  this wonderful starship (if you don&rsquo;t get too drunk during the celebration).</p>
+	<h1>********************************************************************************************** </h1>
+		
+		<img src="images/special.png" alt="desc of image" width="500" class="layout">
+		
+	     <p> And this starship is  only for VIP clients. For those who want to feel like the master of planet  Earth. Do you think this is a joke? Then look at the cost of one day spent on  it. And believe me, his excellent cabins are worth the money. You won&rsquo;t even  feel the transition to hyperspace. But there is only one small warning. The pilot  of this chic star yacht is the same <span style="color:red"><strong>RACCOON!!!!!</strong></span></p>
+	<h1>********************************************************************************************** </h1>
+		
+		<img src="images/cabrio.png" alt="desc of image" width="500" class="layout">
+		
+	     <p> Well, if You like to  ride with the breeze, we have prepared for You a one-of-a-kind starship-a  convertible! In it, You will feel the cosmic wind (and, of course, cosmic  radiation) with your entire spacesuit. That is why the pilot who controls it,  Arnienator, sometimes returns alone, without customers. But it doesn&rsquo;t matter,  because all our passengers are insured! However, in order to receive insurance  payments, your relatives will have to fly to the neighboring Galaxy, since the  insurance company is located there.</p>
+	 <h1>********************************************************************************************** </h1>
+	
+	     <h2><i class="fa-solid fa-wrench"></i><span style="color:#C1FF72">WE WANT TO SAY A FEW WORDS ABOUT THE TEAM OF OUR BEST MECHANICS IN THE UNIVERSE!!! THEY ARE UNIQUE!!!</span><i class="fa-solid fa-wrench"></i></h2>
+	 <h1>********************************************************************************************** </h1>
+		
+	    <img src="images/yoda.png" alt="desc of image" width="500" class="layout">
+		
+	     <p> This is our main  mechanic <span style="color:lightgreen"><strong>YOGREENDA</strong></span>. Do not pay attention to the fact that it is green. He is  always green because he is always sick and nauseous. Even at the mere sight of  starships. We spend an unreal amount of money on sick bags for him.</p>
+	 <h1>********************************************************************************************** </h1>
+		
+	    <img src="images/rocky.png" alt="desc of image" width="500" class="layout">
+		
+	     <p> And this is a  <span style="color:lightcoral"><strong>ROCK</strong></span> –  no one knows who it is or what it is, no one knows where his arms are and where  his legs are, but he can do anything. Outwardly it looks like stones, but  somewhere inside it has a brain and even a stomach.</p>
+	 <h1>********************************************************************************************** </h1>
+		
+	    <img src="images/c3po.png" alt="desc of image" width="500" class="layout">
+		
+	     <p> The third member of  our team of mechanics. His name is<span style="color:lightgoldenrodyellow"><strong> C3PO</strong></span>. He can&rsquo;t do anything, he only breaks  everything. But thanks to it, the other two mechanics can communicate with each  other. He doesn&rsquo;t eat or drink, that&rsquo;s why we keep him.</p>
+	 <h1>********************************************************************************************** </h1>
+		
+		<a href="https://www.nasa.gov/">NASA</a>
+		<a href="www.spacex.com">SPACEX</a>
+		<a href="www.blueorigin.com">BLUEORIGIN</a>
+		
+    </main>
+	
+<footer>
+	<i class="fas fa-sun"></i>
+	</footer>	
+	
+</div>
+
+	<script>
+	 let slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+  	showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+  	let i;
+  	let slides = document.getElementsByClassName("mySlides");
+  
+  	if (n > slides.length) {slideIndex = 1}
+  	if (n < 1) {slideIndex = slides.length}
+  	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+  
+			slides[slideIndex-1].style.display = "block";
+  
+		}
+	</script>
+</body>
+	
+</html>

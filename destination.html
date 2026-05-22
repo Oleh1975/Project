@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Destination</title>
+<script src="https://kit.fontawesome.com/87c4142ee6.js" crossorigin="anonymous"></script>
+	
+	
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+</head><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+<body>
+	<div id="wrapper">
+
+	<header>
+	</header>
+	
+	<nav>
+	<ul>
+		<li><a href="index.html" class="active"><i class="fa-solid fa-earth-europe fa-2xl"></i></a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+		<li><a href="pilots.html">PILOTS</a></li>
+		<li><a href="starships.html">STARSHIPS</a></li>
+		<li><a href="destination.html">DESTINATION</a></li>
+	</ul>
+	</nav>
+		
+		<h1 style="color:#C1FF72">LOCAL FLIGHTS <h1 style="color:red">DON'T MISS OUT ON THE SPECIAL OFFER!<strong> 50% OFF!!!!! </strong>HALF PRICE FOR THE NEXT 99 YEARS!</h1></h1>
+		<h1>********************************************************************************************** </h1>
+		
+	<main>
+		
+    <div class="container">
+        
+		<div class="card"><img src="images/mercury2.png" alt="desc of image" width="400" >
+          
+          <p>If You love the sun and warm weather,<span style="color:red"><strong> WELCOME TO MERCURY!</strong></span> Here  You will take a real sunbath and get a tan that You will not find in any  solarium. You can even buy a one-way ticket!</p>
+			
+        </div>
+		
+        <div class="card"><img src="images/mars.png" alt="desc of image" width="400" >
+          
+          <p>You  want to see the birthplace of Elon Musk – then You should go to <span style="color:red"><strong>MARS!</strong></span> Breathing  in the fresh Martian air, You will feel like the richest man on Earth. And, of  course, on Mars.</p>
+			
+        </div>
+		
+    
+     <div class="card"><img src="images/saturn.png" alt="desc of image" width="400" >
+       
+       <p> A special offer for  those who love starship racing. <span style="color:red"><strong>Saturn&rsquo;s</strong></span> circuit racetracks are the best in our  Galaxy! Here you and your friends can enjoy the speed of light at 100%!</p>
+		 
+     </div>
+		<h1>********************************************************************************************** </h1>
+		
+		<h1 style="color:#C1FF72">INTERGALACTIC FLIGHTS<h1 style="color:red">FOR ESPECIALLY SOPHISTICATED CUSTOMERS!!!!!</h1></h1>
+		<h1>********************************************************************************************** </h1>
+		
+		<div class="card"><img src="images/cloud.png" alt="desc of image" width="400" >
+		
+	    <p> The <span style="color:red"><strong>LARGE MAGELLANIC  CLOUD</strong></span> is the closest Galaxy to us. Flying there will take a fraction of a  second (Universal time). Look at the wonderful colors, the amazing cosmic winds  in this Galaxy. You will be able to immerse yourself in this space storm (sick  bags are included in the tour price).</p>
+			
+		</div>
+		
+		<div class="card"><img src="images/andromeda.png" alt="desc of image" width="400" >
+			
+		  <p>If You want to fly away from the hustle and bustle of the  Earth – welcome to the <span style="color:red"><strong>ANDROMEDA GALAXY</strong></span> ! In its shape, it is similar to our Milky  Way, but take a closer look at it. We are sure that You have already fallen in  love with her. She is just the dream of any artist. We highly recommend You to  visit it.</p>
+			
+		</div>
+		
+		<div class="card"><img src="images/cassiopeia.png" alt="desc of image" width="400" >
+			
+		  <p>And if You have a lot of free time (and money) and want to  explore deep space, we suggest You fly to the center of the Universe. The <span style="color:red"><strong>CASSIOPEIA </strong></span> galaxy cluster is only 2.58 million light-years from Earth. But You won&rsquo;t get  bored during the flight. There&rsquo;s plenty to do aboard our starship. And our eight-armed  chef will prepare gourmet dishes from all corners of our Universe.</p>
+			
+        </div>
+		
+	  </main>
+		
+	<img src="images/timetravel.png" alt="desc of image">
+		
+	<footer>
+	<i class="fas fa-sun"></i>
+	</footer>
+		
+</div>
+	
+	<script>
+	 let slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+  	showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+  	let i;
+  	let slides = document.getElementsByClassName("mySlides");
+  
+  	if (n > slides.length) {slideIndex = 1}
+  	if (n < 1) {slideIndex = slides.length}
+  	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+  
+			slides[slideIndex-1].style.display = "block";
+  
+		}
+	</script>
+</body>
+	
+</html>

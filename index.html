@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home page</title>
+<script src="https://kit.fontawesome.com/87c4142ee6.js" crossorigin="anonymous"></script>
+	
+	
+<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<style type="text/css">
+
+    </style>
+</head>
+
+<body>
+	<div id="wrapper">
+
+	<header>
+	</header>
+	
+	<nav>
+	<ul>
+		<li><a href="index.html" class="active"><i class="fa-solid fa-earth-europe fa-2xl"></i></a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+		<li><a href="pilots.html">PILOTS</a></li>
+		<li><a href="starships.html">STARSHIPS</a></li>
+		<li><a href="destination.html">DESTINATION</a></li>
+	</ul>
+	</nav>
+	<main>
+		
+		<div class="slideshow-container">
+			
+			<div class="mySlides fade">
+				<div class="numbertext">1/4</div>
+				<img src="images/galaxy.jpeg" style="width: 100%" alt="">
+				<div class="text">Tours of the Galaxy</div>
+				</div>
+		
+			<div class="mySlides fade">
+				<div class="numbertext">2/4</div>
+				<img src="images/hills.jpeg" style="width: 100%" alt="">
+				<div class="text">Space hills</div>
+				</div>
+		
+			<div class="mySlides fade">
+				<div class="numbertext">3/4</div>
+				<img src="images/spiral.jpeg" style="width: 100%" alt="">
+				<div class="text">The Radiance of a Star</div>
+				</div>
+		
+			<div class="mySlides fade">
+				<div class="numbertext">4/4</div>
+				<img src="images/stars.jpeg" style="width: 100%" alt="">
+				<div class="text">Stars</div>
+				</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+		</div>
+		</main>
+	
+		<footer>
+		<i class="fas fa-sun"></i>
+	</footer>
+			
+</div>
+	
+	<script>
+	 let slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+  	showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+  	let i;
+  	let slides = document.getElementsByClassName("mySlides");
+  
+  	if (n > slides.length) {slideIndex = 1}
+  	if (n < 1) {slideIndex = slides.length}
+  	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+  
+			slides[slideIndex-1].style.display = "block";
+  
+		}
+	</script>
+</body>
+	
+</html>
